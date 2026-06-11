@@ -19,11 +19,3 @@ let sum = function (a,b){
 
 sum(10,20);
 sum(30,40);
-
-console.log("Intan waxaan kusoo bandhigi doonaa Arrow Function kaliya")
-
-let isugayn = (a,b)=>{
-    console.log(a + b);
-}
-
-isugayn(1000,2000);
