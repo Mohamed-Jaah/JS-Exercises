@@ -21,3 +21,18 @@ if(username == user && password == pass)
     console.log("Logged in successfully, Welcome " + username);
 else
     console.log("Incorrect username or password, please try again later");
+
+
+// String Concatenation
+
+// let name = "Mohamed  ";
+
+// name += "Abdalle  ";
+
+// name+="Aadem  ";
+
+// name +="Ismail  ";
+
+// name +="Cawad  ";
+
+// console.log(name);
