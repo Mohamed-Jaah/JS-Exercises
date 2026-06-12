@@ -1,21 +1,19 @@
+// declaring the array
 
-function add(a,b){
-    return a + b;
-}
+let colors = ["Red", "Blue" , "Red"];
 
+console.log("color one is : ", colors[0]);
+console.log("Color two is :",colors[1]);
+console.log("Color three is :",colors[2]);
 
-console.log(add(10,20));
-console.log(add(20,30));
-console.log(add(30,40));
-console.log(add(40,50));
-console.log(add(50,60));
+// Adding the array to new element
+colors.push("Purple");
+console.log("Color four is :",colors[3]);
 
-console.log("Here below is the funtion expression only");
+// Displying total number of elements in the array
+console.log("Total number of element in the Colors array is :",colors.length);
 
-let sum = function (a,b){
-    
-    console.log(a+b)
-}
+// Removing the first element from the array 
 
-sum(10,20);
-sum(30,40);
+colors.shift();
+console.log("Removing the first element : ", colors);

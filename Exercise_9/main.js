@@ -1,21 +1,21 @@
+let car ={
+    car_name: "LandCruiser",
+    model: "VX",
+    year:1994,
 
-function add(a,b){
-    return a + b;
-}
-
-
-console.log(add(10,20));
-console.log(add(20,30));
-console.log(add(30,40));
-console.log(add(40,50));
-console.log(add(50,60));
-
-console.log("Here below is the funtion expression only");
-
-let sum = function (a,b){
+    // Adding a method or fucntion to the  object
+    start : function()
+    {
+        console.log("The car Has started");
+    }
     
-    console.log(a+b)
 }
 
-sum(10,20);
-sum(30,40);
+console.log("Here is the car name :",car.car_name);
+console.log("Here is the car model : ", car.model);
+console.log("Here is the car published year :", car.year);
+
+// calling the method
+
+car.start();
+

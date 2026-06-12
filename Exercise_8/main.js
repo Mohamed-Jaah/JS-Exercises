@@ -1,21 +1,19 @@
-
-function add(a,b){
-    return a + b;
+let car ={
+    car_name: "LandCruiser",
+    model: "VX",
+    year:1994,
 }
 
+console.log("Here is the car name :",car.car_name);
+console.log("Here is the car model : ", car.model);
+console.log("Here is the car published year :", car.year);
 
-console.log(add(10,20));
-console.log(add(20,30));
-console.log(add(30,40));
-console.log(add(40,50));
-console.log(add(50,60));
+// Adding new property to the object
 
-console.log("Here below is the funtion expression only");
+car.color = "White";
+console.log("The color of the car is :", car.color);
 
-let sum = function (a,b){
-    
-    console.log(a+b)
-}
+// Updating publishing year of the car
 
-sum(10,20);
-sum(30,40);
+car.year=1995;
+console.log("The last update of this car is published during :", car.year);

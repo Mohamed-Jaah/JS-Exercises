@@ -1,21 +1,27 @@
+// here, i'm creating is a list of books, wheere every book has its own information
 
-function add(a,b){
-    return a + b;
-}
+// First, Creating an Array called library
+let library = [
 
+    {
+        author:"Mohamed Abdalle",
+        title:"How to become a Software Developer",
+        year:2000
+    },
 
-console.log(add(10,20));
-console.log(add(20,30));
-console.log(add(30,40));
-console.log(add(40,50));
-console.log(add(50,60));
+    {
+        author:"Adem Ahmed",
+        title:"Evolution of mobile phones",
+        year:2010
+    },
 
-console.log("Here below is the funtion expression only");
+    {
+        author:"Mohamoud Ali",
+        title: "Why not You",
+        year:2020
+    }
+]
 
-let sum = function (a,b){
-    
-    console.log(a+b)
-}
-
-sum(10,20);
-sum(30,40);
+// Printing the whole array
+console.log(library[0].title);
+console.log(library[1].author)

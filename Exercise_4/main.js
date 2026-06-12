@@ -27,3 +27,4 @@ let isugayn = (a,b)=>{
 }
 
 isugayn(1000,2000);
+
