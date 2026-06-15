@@ -1,0 +1,11 @@
+{
+    "userID":2000,
+    "fullname":"Maxamed Cabdalle Adem",
+    "username":"Moh-2026",
+    "email":"example@gmail.com",
+    "tasks":[
+        {"taskID":100,"taskName":"Deployement","taskDate":"22/10/2010"},
+        {"taskID":101,"taskName":"Monitoring","taskDate":"23/10/2010"}
+    ]
+
+}
