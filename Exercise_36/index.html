@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+</head>
+<body>
+
+    <style>
+        .container{
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            margin-left: 200px;
+            margin-top: 20px;
+            box-shadow: 0 1px 6px 0px;
+            border-radius: 30px;
+            padding: 10px;
+        }
+
+        #pickColor{
+            width: 400px;
+            height: 30px;
+            padding: 0.1px;
+        }
+
+        .label1{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #colorShowBox{
+            width: 500px;
+            height: 200px;
+            border: 1px solid rgb(99, 99, 99);
+            margin: 30px;
+            border-radius: 30px;
+        }
+
+        #colorShowBox h3{
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #clearHistory{
+            width: 60%;
+            margin-left: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 0;
+            border-radius: 20px;
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+    
+
+    <div class="container">
+
+        <h1>Interactive Color Picker</h1>
+
+        <label class="label1">Please Chooce a Color:</label>
+        <input type="color" id="pickColor">
+
+        <div id="colorShowBox">
+            <h3>Color Show Box</h3>
+        </div>
+
+        <h3>Picked Color History</h3>
+        <ul id="historyList" >History List</ul>
+       
+        <button id="clearHistory" >Clear History</button>
+
+
+
+    </div>
+
+<script src="main.js"></script>    
+</body>
+</html>
+
